@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Teko', sans-serif;    
+}
+body{
+    background-image: url("background_cyber.png");
+        background-repeat: no-repeat;
+        background-position: center;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(34, 0, 255), rgb(149, 0, 255));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-imagem img{
+    Width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.menu h1{
+    text-transform: uppercase;
+}
+
+.sobre-nos{
+    margin: 20px 0;
+}
+.sobre-nos h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+}
+.sobre-nos-content{
+    margin-left: 15%;
+}
+.sobre-nos-content p{
+    color: rgb(196, 196, 196);
+}
+.objetivo{
+    margin: 20px 0;
+}
+.objetivo h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+}
+.objetivo-content{
+    margin-left: 15%;
+}
+.objetivo-content p{
+    color: rgb(196, 196, 196);
+    font-size: large;
+}
+.ensino{
+    margin: 20px 0;
+}
+.ensino h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+}
+.ensino-content{
+    margin-left: 15%;
+    font-size: large;
+}
+.ensino-content p{
+    color: rgb(196, 196, 196);
+    font-size: large;
+}
+.rede-social{
+    margin: 20px 0;
+}
+.rede-social h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+}
+.rede-social-content{
+    margin-left: 15%;
+
+}
+.rede-social-content a{
+    color: rgb(196, 196, 196);
+    display: inline-flex;
+    margin-right: 10px;
+    font-size: large;
+}
+.rede-social-content a:hover{
+    color:goldenrod;
+    transition: 0.8s;
+}
+
